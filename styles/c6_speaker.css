@@ -8,11 +8,11 @@ html {
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    width: 800px;
-    margin: 0 auto;
-    border: 3px solid #931420;
-    background-color: #fffded;
+	font-size: 100%;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -21,14 +21,14 @@ a:focus, a:hover {
 header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
-		background-image: -moz-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -moz-linear-gradient(
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: -webkit-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: -o-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 header h2 {
 	font-size: 175%;
@@ -53,12 +53,12 @@ section {
 }
 section h1 {
 	font-size: 150%;
-	padding: .5em 0 .25em 0;
+	padding: .5em 0 0 0;
 	margin: 0;
+	color: #800000;
 }
 section h2 {
-	color: #800000;
-	font-size: 130%;
+	font-size: 110%;
 	padding: .5em 0 .25em 0;
 }
 section p {
@@ -78,8 +78,6 @@ section li {
 /* the styles for the article */
 article {
 	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 article h2 {
 	padding-top: 0;
@@ -93,7 +91,6 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
-
 /* the styles for the aside */
 aside {
 	width: 215px;
